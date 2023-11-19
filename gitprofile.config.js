@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: '', //TODO: Your GitHub org/user name. (Required)
+    username: 'LaureneChan2013', //TODO: Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 4, // How many projects to display.
     exclude: {
@@ -11,18 +11,18 @@ const config = {
     },
   },
   scratch: {
-    username: '', //TODO: Your Scratch username. (Required)
+    username: 'tym_lau', //TODO: Your Scratch username. (Required)
     limit: 8, // How many projects to display; maximum 20
     sortBy: 'date', // date | views | remixes
-    corsProxy: "" //TODO: Enter your CORS Proxy here
+    corsProxy: "https://scratchapicors-git-main-laurenes-projects.vercel.app/" //TODO: Enter your CORS Proxy here
   },
   social: { //TODO: Add in Socials
-    linkedin: '',
-    facebook: '',
-    instagram: '',
-    tiktok: '',
-    email: '',
-    website: '',
+    //linkedin: '',
+    //facebook: '',
+    //instagram: '',
+   // tiktok: '',
+    email: 'tym.laurene@gmail.com',
+    //website: '',
     // dev: '',
     // twitter: '',
     // mastodon: '',
@@ -48,8 +48,10 @@ const config = {
     'CSS',
     'MakeCode',
     'ScratchJr',
-    'Hopscotch',
     'Robotics',
+    'Math Olympiad',
+    'Table Tennis',
+    'Higher Chinese'
   ],
   experiences: [
     {
@@ -77,16 +79,10 @@ const config = {
   ],
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Ngee Ann Primary School',
+      degree: 'PSLE',
+      from: '2019',
+      to: 'now',
     },
   ],
 
@@ -98,7 +94,7 @@ const config = {
         'This project presents a Flappy Bird-inspired game designed for the Micro:bit v2 platform. It is constructed using for loops, conditional statements, functions, and lists to create an entertaining and interactive gaming experience.',
       imageUrl:
         'https://upload.wikimedia.org/wikipedia/en/0/0a/Flappy_Bird_icon.png',
-      link: 'https://makecode.microbit.org/_8hTHCD4ax7ty',
+      link: 'https://makecode.microbit.org/_eRDaj3CF330L',
     },
     {
       title: 'Microbit Space Invaders',
